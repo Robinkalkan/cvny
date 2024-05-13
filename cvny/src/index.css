@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navigation {
+    text-align: center;
+    padding: 2em;
+    font-family: 'Protest Revolution', sans-serif;
+    border: 3px solid color rgba(55, 191, 191, 0.27);
+    color: rgb(216, 204, 204);
+
+}
+
+
+.navigation li {
+    display: inline-block;
+    /* Placera länkarna bredvid varandra */
+    margin-right: 20px;
+    /* Justera avståndet mellan länkarna efter behov */
+    border: 2px solid rgb(143, 136, 136);
+    padding: 3px;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+
+.navigation li:last-child {
+    margin-right: 0;
+    /* Ta bort marginalen från det sista listelementet för att undvika överflödig tomrum */
+}
+
+.navigation a {
+    text-decoration: none;
+    /* Ta bort understreck från textlänkar */
+    color: rgb(2, 210, 237);
+
+}
+
+.navigation ul li:hover {
+    background-color: rgb(177, 158, 158);
+    transform: scale(1.1);
+
+}
+
+.navigation ul li:active {
+    background-color: rgb(47, 48, 58);
+}
+
+
+a.active {
+    background-color: rgb(143, 146, 157);
+
+}
+
+h1.Välkommen {
+    font-size: 30px;
+    font-family: 'Protest Revolution', sans-serif;
+    text-align: center;
+    margin-bottom: 1%;
+    color: rgb(46, 168, 176);
+}
+
+h1 span.mitt-cv {
+    color: rgb(13, 110, 110);
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+
+img.PicOfMe {
+    display: block;
+    margin: auto;
+    max-width: 40%;
+    max-height: 40vh;
+    border-radius: 200px;
+    margin-top: 40px;
+
+}
+
+body.färg {
+    background-color: rgba(246, 246, 250, 0.597);
+}
+
+main.link {
+    display: block;
+    font-size: 50px;
+    margin: auto;
+    max-width: 3%;
+    margin-top: 200px;
+    transition: transform 1s;
+
+
+}
+
+.link:hover {
+    transform: scale(1.2);
+
+}
+
+.link a {
+    color: rgb(13, 0, 255);
+}
+
+span {
+    color: rgb(1, 55, 249);
+}
+
+
+
+.bakrund {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.PersonligtBrev {
+    text-align: center;
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 32px;
+    padding: 2px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+
+.content-text {
+    font-family: 'Lucida Grande', serif;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.751);
+    text-align: center;
+    padding: 3%;
+    line-height: 1.2;
+    max-width: 770px;
+    margin: 0 auto;
+    min-width: 200px;
+}
+
+img.background-image {
+    width: 100%;
+    /* Bredden på bakgrundsbilden ska täcka hela sidan */
+    height: 100%;
+    /* Höjden på bakgrundsbilden ska täcka hela sidan */
+    object-fit: cover;
+    /* Skala bilden för att täcka hela bakgrunden */
+    position: fixed;
+    /* Gör bakgrundsbilden fast för att den ska täcka hela sidan */
+    top: 0;
+    /* Placera bilden längst upp */
+    left: 0;
+    /* Placera bilden längst till vänster */
+    z-index: -1;
+    /* Lägg bakgrundsbilden bakom allt annat innehåll */
+}
+
+img.background-image-contact {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+img.background-image-Home {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.navigation-personligtbrev {
+    text-align: center;
+    padding: 3em;
+    font-family: 'Protest Revolution', sans-serif;
+
+}
+
+
+.navigation-personligtbrev li {
+    display: inline-block;
+    /* Placera länkarna bredvid varandra */
+    margin-right: 20px;
+    /* Justera avståndet mellan länkarna efter behov */
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3px;
+    border-radius: 20px;
+    transition: transform 0.7s;
+    background-color: rgb(0, 0, 0);
+}
+
+.navigation-personligtbrev li:last-child {
+    margin-right: 0;
+    /* Ta bort marginalen från det sista listelementet för att undvika överflödig tomrum */
+}
+
+.navigation-personligtbrev a {
+    text-decoration: none;
+    /* Ta bort understreck från textlänkar */
+    color: rgba(179, 9, 9, 0.893);
+
+}
+
+.navigation-personligtbrev ul li:hover {
+    background-color: rgb(12, 6, 6);
+    transform: scale(1.1);
+
+}
+
+
+
+.mitt-cv-rubrik {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 900;
+    border: 3px solid;
+    border-radius: 30px;
+    border-color: rgb(127, 118, 191);
+    margin: 2% 25%;
+    text-align: center;
+    color: #00ff51;
+    background-color: #150e0e;
+}
+
+h3 {
+    text-align: center;
+}
+
+.mitt-cv {
+    color: rgba(252, 255, 253, 0.84);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.bakrund {
+    background-color: #000000;
+}
+
+.portfolioCard {
+    display: flex;
+    flex-wrap: wrap;
+    /* För att hantera flera kort i en rad och automatiskt flytta dem till nästa rad om det inte finns tillräckligt med utrymme */
+    justify-content: center;
+    /* Centrera korten horisontellt inuti behållaren */
+    gap: 20px;
+    /* Lägg till mellanrum mellan korten */
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+{
+  "arbetserfarenhet": [
+    {
+      "arbetsgivare": "AstraZeneca",
+      "period": "2018-2024",
+      "beskrivning": "Ett svensk-brittiskt multinationellt läkemedels- och bioteknikföretag. Dispensering av råvaror för tillverkning, halvfabrikat till beredning, tilltryck av etiketter och klichéer samt tryckkörning, även emballage till förpackningsenheter. Avancerad kunskap inom stationer med Glovebag. Arbete inom aktiva stationer. Färdigheter inom PAS-X."
+    },
+    {
+      "arbetsgivare": "Fordonsmontör",
+      "period": "2017-2018",
+      "beskrivning": "Monterade växellådor till lastbilar och svenska militärens fordon under begränsad tid."
+    }
+  ],
+  "utbildning": [
+    {
+      "program": "Värme, Ventilation och Sanitet",
+      "period": "2014-2017"
+    }
+  ]
+}
